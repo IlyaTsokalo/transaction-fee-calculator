@@ -10,10 +10,11 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "MyAppUnitTest\\": "tests/unit/"
+            "Unit\\": "tests/Unit/"
         }
     },
     "require": {
+        "php": ">=8.2",
         "spatie/data-transfer-object": "^3.9"
     }
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace unit;
+namespace Unit\Transaction;
 
-require dirname(__DIR__, 2) . '/vendor/autoload.php';
+require dirname(__DIR__, 3) . '/vendor/autoload.php';
 
 use App\Transaction\TransactionFacade;
 use App\Transaction\TransactionFactory;
